@@ -1,4 +1,3 @@
-# Web-sitem
 <!DOCTYPE html>
 <html>
 <head> 
@@ -104,48 +103,29 @@
 <div class="left"></div>
 <div class="stuff">
   <br><br>
-  <h1>Resume</h1>
-  <h2>Emily</h2>
+  <h1 id="scroll to the top of the web page">Alparslan</h1>
+  <h2>Ayhan</h2>
   <hr />
   <br>
-  <p class="head">Interests</p>
+  <p class="head">Activity</p>
   <ul>
-    <li>Drawing</li>
-    <li>Photography</li>
-    <li>Design</li>
-    <li>Programming</li>
-    <li>Computer Science</li>
+    <a href="https://www.linkedin.com/posts/alparslan-ayhan-40362b206_completion-certificate-for-google-it-support-activity-6933698976370028544-JDo_?utm_source=linkedin_share&utm_medium=member_desktop_web">
+    <li>Completion Certificate for Google IT Support</li>
+  </ul>
+  <p class="head">About</p>
+  <ul>
+  </ul>
+  <p class="head">Licenses & certifications</p>
+  <ul>
   </ul>
   <p class="head">Skills</p>
   <ul>
-    <li>Web Design with HTML & CSS</li>
   </ul>
-  <p class="head">Education</p>
-  <ul>
-    <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
-      <li>Wilton High School</li>
-    </a>
-    <!--Link-->
-    <a href="https://www.silvermineart.org/">
-      <li>Silvermine School of Arts</li>
-    </a>
-    <li>Codeacademy</li>
-  </ul>
-  <p class="head">Experience</p>
-  <ul>
-    <li>Student Technology Intern for Wilton School District</li>
-    <li>Babysitter</li>
-  </ul>
-  <p class="head">Extracurriculars</p>
-  <ul>
-    <li>Recycling Club</li>
-    <li>Gardening Club</li>
-    <li>Book Club</li>
-  </ul>
+  <a href="#scroll to the top of the web page"><h6>scroll to the top of the web page</h1></a>
 </div>
 <div class="right"></div>
 <div id="footer">
-  <h2 id="name">Emily</h2></div>
+  <h2 id="name">Alparslan</h2></div>
     
-</body>
+  </body>
 </html>
