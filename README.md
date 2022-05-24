@@ -97,6 +97,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <link rel="stylesheet" href="styles/site.css">
 </head>
 <body>
     <div id="header"></div>
