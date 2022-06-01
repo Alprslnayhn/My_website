@@ -179,3 +179,28 @@ h4{
   display: none;
   margin-left: 20px;
 }
+/* CONTACT */
+
+.contact{
+  padding: 10px 0;
+}
+.contact h2{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color:aqua;
+  font-size: 30px;
+  font-weight: 600;
+}
+.contact h2::after{
+  content: "";
+  width: 0 auto;
+  background-color: aliceblue;
+  display: block;
+  margin-top: 10;
+}
+.contact-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
