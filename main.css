@@ -71,7 +71,7 @@ li{
 
 }
 .header-text{
-  color: rgb(158, 199, 235);
+  color: rgb(53, 143, 221);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -116,7 +116,7 @@ li{
   top: 0;
 }
 
-                           /* About */
+/* About */
 
 .about{
     margin-bottom: 150px;
@@ -174,11 +174,8 @@ h4{
     text-align: center;
     color: blanchedalmond;
 }
-#menu-icon{
-  font-size: 25px;
-  display: none;
-  margin-left: 20px;
-}
+
+
 /* CONTACT */
 
 .contact{
@@ -203,4 +200,97 @@ h4{
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.contact-item{
+  display: flex;
+  align-items: center;
+  flex-basis: 33%;
+  margin-bottom: 33px;
+  flex-direction: column;
+}
+.contact-item i{
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: aquamarine;
+}
+.contact-item p{
+  font-size: 14px;
+  line-height: 33px;
+}
+
+/* MENU ICON */
+
+#menu-icon{
+  font-size: 25px;
+  display: none;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width:800px){
+  .header-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 100;
+    left: 0;
+    background-color: rgb(41, 27, 8);
+    width: 100%;
+    overflow: hidden;
+    transition: wax-height .5s;
+  }
+  .header-menu ul li{
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .header-menu ul li a{
+    color: beige;
+  }
+  .header-menu #menu-icon{
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* FOOTER */
+.footer h2{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color:aqua;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 60px;
+
+}
+.footer h2::after{
+  content: "";
+  width: auto;
+  background-color: aliceblue;
+  margin: auto;
+  display: block;
+  margin-top: 10;
+}
+.footer{
+  background-color: blue;
+}
+.footer-copyright{
+  color: blanchedalmond;
+  text-align: center;
+  flex-basis: 55%;
+  line-height: 2;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.footer-content{
+ display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; 
+}
+.footer-social i{
+  color: azure;
 }
